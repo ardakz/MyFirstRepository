@@ -10,4 +10,5 @@
 7. git checkout  -- переход на пред commit  или  на другой ветку
 8. git restore -- откат до commit с удалением изменении. 
 9. git restore --staged file_name   -- убирает состояние git add
-10.
+10. git commit --amend -m "Сообщение" -- меняет название commit
+11. git push origin master  -- залить код в Github,сначала нужно сделать commit.
